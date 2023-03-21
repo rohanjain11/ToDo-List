@@ -135,5 +135,5 @@ app.get("/about", function (req, res) {
 });
 
 app.listen(3000 || process.env.PORT, ()=>{
-    console.log(`The application started successfully on port ${port}`);
+    console.log(`The application started successfully on port`);
 });
